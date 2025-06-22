@@ -1,0 +1,9 @@
+# Ignore IMDb datasets
+import/*.tsv
+import/*.tsv.gz
+import/*.csv
+# Optional: ignore data staging
+*.sqlite
+*.log
+*.bak
+*.tmp
