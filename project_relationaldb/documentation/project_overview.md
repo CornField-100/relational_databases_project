@@ -1,11 +1,13 @@
 # IMDb Clone Project - Complete Documentation
 
+# Team Members:
+- Quang Dang NGO
+- Hassan Majzoub
+
 ## Project Overview
 This project implements a complete IMDb clone with database structure, web application queries, and comprehensive data analysis based on the IMDb non-commercial dataset.
 
-## Part 1: Database Structure ✅
-
-Your database schema is well-designed with the following key tables:
+## Part 1: Database Structure:
 
 ### Core Tables
 - **titles**: Main table for movies, TV series, and episodes
@@ -279,47 +281,6 @@ All web application queries use parameterized inputs ($1, $2, etc.) to:
 7. **Array Operations**: String parsing and array aggregation
 8. **Complex Grouping**: GROUPING SETS, multiple dimensions
 
-## Project Structure Recommendation
-
-```
-project_relationaldb/
-├── README.md (this file)
-├── schema/
-│   ├── schema.sql (your existing schema)
-│   └── init.sql (your Docker init)
-├── import/
-│   └── import_all.sql (your existing import)
-├── queries/
-│   ├── web_queries.sql (Part 2 queries)
-│   └── analysis_queries.sql (Part 3 queries)
-├── documentation/
-│   └── queries_explanation.md (this documentation)
-├── docker/
-│   └── docker-compose.yml (your existing Docker setup)
-└── analysis/
-    └── sample_results.md (example query outputs)
-```
-
-## How to Use These Queries
-
-### For Web Application Development
-1. Use the web queries as templates for your application endpoints
-2. Replace parameter placeholders ($1, $2, etc.) with actual values
-3. Implement pagination for listing queries
-4. Add appropriate error handling
-
-### For Data Analysis
-1. Run analysis queries against your populated database
-2. Export results to CSV for visualization tools
-3. Use results to generate charts and graphs
-4. Document insights and patterns discovered
-
-## Next Steps for Completion
-
-1. **Test all queries** against your imported data
-2. **Generate sample outputs** for each analysis query
-3. **Create visualizations** from analysis results
-4. **Document performance metrics** for each query type
-5. **Add additional indexes** if needed based on query performance
-
-This completes your IMDb clone project with sophisticated database design, comprehensive web application support, and advanced data analysis capabilities.
+## Notes (Important reads):
+1. ($1, $2, etc.) are placeholder parameters.
+2. This project does not come with frontend because we felt it wasn't neccessary. 

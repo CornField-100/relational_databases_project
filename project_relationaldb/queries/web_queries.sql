@@ -1,7 +1,3 @@
--- ===================================================
--- Part 2: Web Application Queries
--- ===================================================
-
 -- ===============================
 -- 1. Movie Summary Page
 -- Purpose: Display key information for a movie including cast, crew, and ratings
